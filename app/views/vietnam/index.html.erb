@@ -1,4 +1,6 @@
 <h1>Vietnam</h1>
-<h1><%= link_to "Hoi An", hoian_path %></h1>
+<%= link_to hoian_path do %>
+   <%= image_tag "hoian.jpg", class: "div_vietnam" %>
+<% end %>
 <h1><%= link_to "Ho Chi Minh", hochiminh_path %></h1>
 <h1><%= link_to "Hanoi", hanoi_path %></h1>

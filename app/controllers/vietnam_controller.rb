@@ -1,4 +1,4 @@
 class VietnamController < ApplicationController
-  def vietnam
+  def index
   end
 end
