@@ -1,0 +1,2 @@
+module ThailandHelper
+end

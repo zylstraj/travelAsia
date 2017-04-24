@@ -1,0 +1,2 @@
+class ThailandController < ApplicationController
+end
