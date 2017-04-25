@@ -17,15 +17,15 @@
   @include backgroundImage;
 }
 .div_city_hoian {
-  background: image-url('./Vietnam/hoi_an.jpg') no-repeat center;
+  background: image-url('Vietnam/hoi_an.jpg') no-repeat center;
   @include backgroundImage;
 }
 .div_city_hochiminh {
-  background: image-url('./Vietnam/hochiminh.jpg') no-repeat center;
+  background: image-url('/Vietnam/hochiminh.jpg') no-repeat center;
   @include backgroundImage;
 }
 .div_city_hanoi {
-  background: image-url('./Vietnam/halong_bay.jpg') no-repeat center;
+  background: image-url('.Vietnam/halong_bay.jpg') no-repeat center;
   @include backgroundImage;
 }
 .div_city_vangvieng {
