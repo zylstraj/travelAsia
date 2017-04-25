@@ -45,13 +45,13 @@
   @include backgroundImage;
 }
 .nav_home_page {
-  background: image-url('hoian_beach.jpg') repeat center center;
+  background: image-url('hoian_beach.jpg') no-repeat center center;
   @include backgroundImage;
   height: 300px;
 }
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 850px) {
   .nav_home_page {
-    background: image-url('hoian_beach.jpg') no-repeat center center fixed;
+    background: image-url('hoian_beach.jpg') no-repeat center center;
     @include backgroundImage;
     height: 600px;
   }
