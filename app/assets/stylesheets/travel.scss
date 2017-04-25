@@ -12,6 +12,10 @@
   -o-background-size: cover;
   background-size: cover;
 }
+.home_page {
+  background: image-url(seasia.jpg) no-repeat center center fixed;
+  @include backgroundImage;
+}
 .div_city_hoian {
   background: image-url('hoi_an.jpg') no-repeat center;
   @include backgroundImage;
