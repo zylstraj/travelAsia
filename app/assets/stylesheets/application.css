@@ -54,56 +54,56 @@
  /* Setting Background Images For Vietnam */
  /* Change this to Sass - to save code */
  .div_city_hoian {
-   background: url(hoi_an.jpg) no-repeat center;
+   background: asset_url('hoi_an.jpg') no-repeat center;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
  }
  .div_city_hochiminh {
-   background: url(hochiminh.jpg) no-repeat center;
+   background: asset_url('hochiminh.jpg') no-repeat center;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
  }
  .div_city_hanoi {
-   background: url(halong_bay.jpg) no-repeat center;
+   background: asset_url('halong_bay.jpg') no-repeat center;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
  }
  .div_city_vangvieng {
-   background: url(vangvieng.jpg) no-repeat center;
+   background: asset_url('vangvieng.jpg') no-repeat center;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
  }
  .div_city_vientiane {
-   background: url(vientiane.jpg) no-repeat center;
+   background: asset_url('vientiane.jpg') no-repeat center;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
  }
  .div_city_kohsamui {
-   background: url(kohsamui.jpg) no-repeat center;
+   background: asset_url('kohsamui.jpg') no-repeat center;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
  }
  .div_city_chiangmai {
-   background: url(chiangmai.jpg) no-repeat center;
+   background: asset_url('chiangmai.jpg') no-repeat center;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
  }
  .div_city_bangkok {
-   background: url(bangkok.jpg) no-repeat center;
+   background: assetr_rl('/bangkok.jpg') no-repeat center;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
