@@ -1,1 +1,28 @@
-<h1>Halong Bay</h1>
+<nav>
+  <h1 class="h1_nav_mainCity">Halong Bay</h1>
+  <%= link_to home_path do %>
+  <h1 class="h1_mainCity_home">Home</h1>
+  <% end %>
+</nav>
+<div class="div_mainCity_specific">
+  <div class="div_mainCity_toDos">
+    <div class="div_mainCity_specificTodo">
+      <h1 class="h1_city_specific">Junk Boat Cruise</h1>
+        <%= image_tag("padthai.jpg", class: "style_image", alt: "Pad Thai") %>
+      <h2 class="h2_city_specific">Indochina</h2>
+      <p class="h2_city_specific">It's expensive, but felt good to have a fancy evening </p>
+    </div>
+    <div class="div_mainCity_specificTodo">
+      <h1 class="h1_city_specific">Smog</h1>
+      <%= image_tag("temple_bangkok.jpg", class: "style_image", alt: "Bangkok") %>
+      <h2 class="h2_city_specific">It's everywhere</h2>
+      <p class="p_city_specific">The photos online look incredibly, but anticipate significant fog</p>
+    </div>
+    <div class="div_mainCity_specificTodo">
+      <h1 class="h1_city_specific">Thoughts</h1>
+      <%= image_tag("tuktuks.jpg", class: "style_image", alt: "Tuk Tuks") %>
+      <h2 class="h2_city_specific">One Time Thing</h2>
+      <p class="p_city_specific">Good to see, but not again: And if you want that Instagram shot - - Wake Up Early</p>
+    </div>
+  <div>
+</div>

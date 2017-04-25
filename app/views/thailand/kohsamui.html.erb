@@ -1,1 +1,28 @@
-<h1>Koh Samui</h1>
+<nav>
+  <h1 class="h1_nav_mainCity">Koh Samui</h1>
+  <%= link_to home_path do %>
+  <h1 class="h1_mainCity_home">Home</h1>
+  <% end %>
+</nav>
+<div class="div_mainCity_specific">
+  <div class="div_mainCity_toDos">
+    <div class="div_mainCity_specificTodo">
+      <h1 class="h1_city_specific">Beach Bum</h1>
+        <%= image_tag("padthai.jpg", class: "style_image", alt: "Pad Thai") %>
+      <h2 class="h2_city_specific">Find Your Beach</h2>
+      <p class="h2_city_specific">So many beaches. Find your sun. </p>
+    </div>
+    <div class="div_mainCity_specificTodo">
+      <h1 class="h1_city_specific">Rent a Scooter</h1>
+      <%= image_tag("temple_bangkok.jpg", class: "style_image", alt: "Bangkok") %>
+      <h2 class="h2_city_specific">Hit the entire island</h2>
+      <p class="p_city_specific">Take a day and just cruise. You can hit the entire island and it is beautiful. Also, if you want to go snorkling, go to the south end of the island. Hidden secrets down there.</p>
+    </div>
+    <div class="div_mainCity_specificTodo">
+      <h1 class="h1_city_specific">Massage</h1>
+      <%= image_tag("tuktuks.jpg", class: "style_image", alt: "Tuk Tuks") %>
+      <h2 class="h2_city_specific">You came here to relax</h2>
+      <p class="p_city_specific">Treat yourself. There are a few nice places to just relax and that's why you are here.</p>
+    </div>
+  <div>
+</div>

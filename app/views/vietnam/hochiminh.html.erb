@@ -1,1 +1,28 @@
-<h1>Ho Chi Minh</h1>
+<nav>
+  <h1 class="h1_nav_mainCity">Ho Chi Minh</h1>
+  <%= link_to home_path do %>
+  <h1 class="h1_mainCity_home">Home</h1>
+  <% end %>
+</nav>
+<div class="div_mainCity_specific">
+  <div class="div_mainCity_toDos">
+    <div class="div_mainCity_specificTodo">
+      <h1 class="h1_city_specific">Vietnam War Museum</h1>
+        <%= image_tag("padthai.jpg", class: "style_image", alt: "Pad Thai") %>
+      <h2 class="h2_city_specific">Left me speechless</h2>
+      <p class="h2_city_specific">Powerful, honest and a heartbreaking look at the war </p>
+    </div>
+    <div class="div_mainCity_specificTodo">
+      <h1 class="h1_city_specific">Traffic</h1>
+      <%= image_tag("temple_bangkok.jpg", class: "style_image", alt: "Bangkok") %>
+      <h2 class="h2_city_specific">It's crazy</h2>
+      <p class="p_city_specific">Be prepared for scooters and traffic everywhere</p>
+    </div>
+    <div class="div_mainCity_specificTodo">
+      <h1 class="h1_city_specific">Bahn Mi and Pho</h1>
+      <%= image_tag("tuktuks.jpg", class: "style_image", alt: "Tuk Tuks") %>
+      <h2 class="h2_city_specific">Yeah, it's so cheap</h2>
+      <p class="p_city_specific">The food is ... out of this world</p>
+    </div>
+  <div>
+</div>

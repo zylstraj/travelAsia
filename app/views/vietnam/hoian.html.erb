@@ -1,1 +1,28 @@
-<h1>Hoi An</h1>
+<nav>
+  <h1 class="h1_nav_mainCity">Hoi An</h1>
+  <%= link_to home_path do %>
+  <h1 class="h1_mainCity_home">Home</h1>
+  <% end %>
+</nav>
+<div class="div_mainCity_specific">
+  <div class="div_mainCity_toDos">
+    <div class="div_mainCity_specificTodo">
+      <h1 class="h1_city_specific">Character</h1>
+        <%= image_tag("padthai.jpg", class: "style_image", alt: "Pad Thai") %>
+      <h2 class="h2_city_specific">City of Lanterns</h2>
+      <p class="h2_city_specific">It is a beautiful little town. Near the beach and yet it's own secluded wonderland </p>
+    </div>
+    <div class="div_mainCity_specificTodo">
+      <h1 class="h1_city_specific">Have To Do</h1>
+      <%= image_tag("temple_bangkok.jpg", class: "style_image", alt: "Bangkok") %>
+      <h2 class="h2_city_specific">Custom Suits</h2>
+      <p class="p_city_specific">Find a place, and get yourself fitted.</p>
+    </div>
+    <div class="div_mainCity_specificTodo">
+      <h1 class="h1_city_specific">Party?</h1>
+      <%= image_tag("tuktuks.jpg", class: "style_image", alt: "Tuk Tuks") %>
+      <h2 class="h2_city_specific">Go to Tiger Tiger</h2>
+      <p class="p_city_specific">If you stay up late enough, the after party will move to Tiger Tiger 2. Yes, it's a different bar named after the first bar</p>
+    </div>
+  <div>
+</div>
