@@ -4,20 +4,12 @@
     <title>TravelAsia</title>
     <%= csrf_meta_tags %>
 
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><%= link_to "Travel Asia", home_path %>
-        </ul>
-        <ul>
-        <li><%= link_to "Vietnam", vietnam_path %>
-        <li><%= link_to "Thailand", thailand_path %>
-          <li><%= link_to "Laos", laos_path %>
-      </ul>
-    </nav>
+
     <%= yield %>
   </body>
 </html>
