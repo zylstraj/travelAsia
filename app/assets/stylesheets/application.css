@@ -13,7 +13,6 @@
  *= require_tree .
  *= require_self
  */
-
  .home_page {
    background: url(seasia.jpg) no-repeat center center fixed;
    -webkit-background-size: cover;
@@ -23,8 +22,11 @@
  }
  body {
    font-family: 'Lato', sans-serif;
-   font-weight: 300;
+   font-weight: 100;
    font-size: 100%;
+ }
+ a:visited {
+   text-decoration: none;
  }
 
  /* Header : Main H! : Home page : Nav Bar */
@@ -33,7 +35,7 @@
    color: white;
    font-weight: 100;
  }
- nav {
+ .nav_home_page {
    height: 600px;
  }
 
@@ -52,64 +54,6 @@
    opacity: .5;
  }
 
- /* Setting Background Images For Vietnam */
- /* Change this to Sass - to save code */
- .div_city_hoian {
-   background: url('hoi_an.jpg') no-repeat center;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
- }
- .div_city_hochiminh {
-   background: url('hochiminh.jpg') no-repeat center;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
- }
- .div_city_hanoi {
-   background: url('halong_bay.jpg') no-repeat center;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
- }
- .div_city_vangvieng {
-   background: url('vangvieng.jpg') no-repeat center;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
- }
- .div_city_vientiane {
-   background: url('vientiane.jpg') no-repeat center;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
- }
- .div_city_kohsamui {
-   background: url('kohsamui.jpg') no-repeat center;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
- }
- .div_city_chiangmai {
-   background: url('chiangmai.jpg') no-repeat center;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
- }
- .div_city_bangkok {
-   background: url('bangkok.jpg') no-repeat center;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
- }
  /* Cities: Vietnam : h1 */
 
  .h1_city {
@@ -162,7 +106,9 @@
    margin-left: .5em;
  }
 
- /* Vietnam : Div's for Vietnam : Links to places: */
+ /* Vietnam : Div's for Vietnam : Links to places:
+ Changes for a more responsive approach: Focusing on
+ */
  .div_vietnam_cities {
    height: 1450px;
  }
@@ -174,8 +120,7 @@
    margin-left: 2.5%;
  }
 
- /* Cities: Vietnam : h1 */
-
+ /* Cities: Vietnam/Thailand/Laos: Variations in Font Placement : h1 */
  .h1_city_hoian {
    padding-top: 150px;
    font-size: 2.5em;

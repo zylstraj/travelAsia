@@ -1,3 +1,58 @@
 // Place all the styles related to the Thailand controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* NAV BAR */
+.h1_nav_mainCity, .h1_mainCity_home {
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+.h1_mainCity_home {
+  float: right;
+  font-size: 1em;
+  width: 30%;
+}
+.h1_nav_mainCity {
+  font-size: 2em;
+  float: left;
+  width: 60%;
+}
+
+
+/* Organization // Styling of Structure: */
+.div_mainCity_specific {
+  // background: url(bangkok.jpg) no-repeat center center fixed;
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
+  clear: both;
+}
+.div_mainCity_toDos {
+  background-color: 'white';
+}
+.div_mainCity_specificTodo {
+  width: 100%;
+  text-align: center;
+}
+
+/* Specific To Do Items Within div_maincity_todos */
+.style_image {
+  height: 250px;
+  width: 100%;
+}
+.h1_city_specific, .h2_city_specific, .p_city_specific {
+  font-weight: 100;
+}
+@media screen and (min-width: 750px) {
+.div_mainCity_specificTodo {
+  width: 30%;
+  float: left;
+  margin-left: 3%;
+}
+.div_mainCity_toDos {
+  background-color: 'white';
+  height: 400px;
+}
+}
