@@ -13,7 +13,7 @@
   background-size: cover;
 }
 .home_page {
-  background: image-url(seasia.jpg) no-repeat center center fixed;
+  background: image-url('seasia.jpg') no-repeat center center fixed;
   @include backgroundImage;
 }
 .div_city_hoian {
