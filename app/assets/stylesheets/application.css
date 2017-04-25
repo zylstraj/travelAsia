@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  */
+
  .home_page {
    background: url(seasia.jpg) no-repeat center center fixed;
    -webkit-background-size: cover;
@@ -103,7 +104,7 @@
    background-size: cover;
  }
  .div_city_bangkok {
-   background: assetr_rl('/bangkok.jpg') no-repeat center;
+   background: asset_url('bangkok.jpg') no-repeat center;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
