@@ -12,10 +12,6 @@
   -o-background-size: cover;
   background-size: cover;
 }
-.home_page {
-  background: image-url('seasia.jpg') no-repeat center center fixed;
-  @include backgroundImage;
-}
 .div_city_hoian {
   background: image-url('hoi_an.jpg') no-repeat center;
   @include backgroundImage;
@@ -47,4 +43,20 @@
 .div_city_bangkok {
   background: image-url('bangkok.jpg') no-repeat center;
   @include backgroundImage;
+}
+.nav_home_page {
+  background: image-url('hoian_beach.jpg') repeat center center;
+  @include backgroundImage;
+  height: 300px;
+}
+@media screen and (min-width: 750px) {
+  .nav_home_page {
+    background: image-url('hoian_beach.jpg') no-repeat center center fixed;
+    @include backgroundImage;
+    height: 600px;
+  }
+  // .home_page {
+  //   background: image-url('seasia.jpg') no-repeat center center fixed;
+  //   @include backgroundImage;
+  // }
 }

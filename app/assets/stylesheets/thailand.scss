@@ -10,7 +10,7 @@
 }
 .h1_mainCity_home {
   float: right;
-  font-size: 1em;
+  font-size: 1.5em;
   width: 30%;
 }
 .h1_mainCity_home:hover {
@@ -47,6 +47,14 @@ color: blue;
 }
 .h1_city_specific, .h2_city_specific, .p_city_specific {
   font-weight: 100;
+}
+.h1_city_toDo {
+  font-size: 3em;
+  clear: both;
+  text-align: center;
+}
+@media screen and (min-width: 480px) {
+
 }
 @media screen and (min-width: 750px) {
   .image_city_specific {

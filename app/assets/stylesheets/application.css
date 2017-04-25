@@ -17,6 +17,7 @@
    font-family: 'Lato', sans-serif;
    font-weight: 100;
    font-size: 100%;
+   margin-top: 0px;
  }
 a:link {
    text-decoration: none;
@@ -24,13 +25,18 @@ a:link {
 
  /* Header : Main H! : Home page : Nav Bar */
  .h1_main_home {
-   font-size: 4em;
-   color: white;
+   font-size: 3em;
+   color: black;
    font-weight: 100;
+   text-align: left;
+   text-transform: uppercase;
+   margin-top: .15em;
+   padding-top: 1.75em;
+   padding-left: .5em;
  }
- .nav_home_page {
+ /*.nav_home_page {
    height: 600px;
- }
+ }*/
 
  /* Vietnam : Div's for Vietnam : Links to places: */
  .div_vietnam_cities {
@@ -93,10 +99,12 @@ a:link {
  }
  @media screen and (min-width: 750px) {
  /* Header : Main H! : Home page : Nav Bar */
+ .nav_home_page {
+   height: 650px;
+ }
  .h1_main_home {
    font-size: 6em;
-   margin-top: .25em;
-   margin-left: .5em;
+   margin-right: .5em;
  }
 
  /* Vietnam : Div's for Vietnam : Links to places:
