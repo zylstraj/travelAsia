@@ -65,7 +65,8 @@ a:link {
    padding-left: 1.5em;
  }
  .h1_city_hochiminh {
-   text-align: center;
+   text-align: right;
+   padding-right: .5em;
    font-size: 3em;
  }
  .h1_city_hanoi {
@@ -127,9 +128,9 @@ a:link {
    font-size: 2.5em;
  }
  .h1_city_hochiminh {
-   text-align: center;
+   text-align: right;
    font-size: 3.5em;
-   padding-top: 30px;
+   padding-top: 5px;
  }
  .h1_city_hanoi {
    font-size: 2em;

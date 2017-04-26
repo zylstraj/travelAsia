@@ -108,7 +108,7 @@ color: blue;
 .div_header_hochiminh {
   clear: both;
   height: 500px;
-  background: image-url('hochiminh.jpg') no-repeat center center;
+  background: image-url('hochiminh_roof.jpg') no-repeat center center;
   @include backgroundImage;
 }
 .div_header_halongbay {
@@ -119,8 +119,8 @@ color: blue;
 }
 @media screen and (min-width: 480px) {
   .style_image, .image_city_specific {
-    height: 350px;
-    width: 450px;
+    height: 300px;
+    width: 425px;
   }
 
 }
@@ -140,6 +140,11 @@ color: blue;
 .div_mainCity_specificTodo {
   width: 30%;
   float: left;
+}
+.div_mainCity_specificTodo:nth-child(2) {
+  margin-left: 3%;
+}
+.div_mainCity_specificTodo:nth-child(3) {
   margin-left: 3%;
 }
 .div_mainCity_toDos {
