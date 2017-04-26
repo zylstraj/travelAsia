@@ -45,18 +45,90 @@ color: blue;
   height: 250px;
   width: 100%;
 }
-.h1_city_specific, .h2_city_specific, .p_city_specific {
+.h1_city_specific, .h2_city_specific {
   font-weight: 100;
 }
+.p_city_specific {
+  font-weight: 100;
+  font-size: 2em;
+}
+
+/* Header : Right under Nav :  -- Basically the same: But each one has a slightly different background */
 .h1_city_toDo {
-  font-size: 3em;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 4em;
+  padding-top: 1em;
+  padding-left: .5em;
   clear: both;
-  text-align: center;
+  text-align: left;
+}
+@mixin backgroundImage {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.div_header_Bangkok {
+  clear: both;
+  height: 300px;
+  background: image-url('bangkok.jpg') no-repeat center center fixed;
+  @include backgroundImage;
+}
+.div_header_kohsamui {
+  clear: both;
+  height: 300px;
+  background: image-url('kohsamui.jpg') no-repeat center center fixed;
+  @include backgroundImage;
+}
+.div_header_chiangmai {
+  clear: both;
+  height: 300px;
+  background: image-url('chiangmai.jpg') no-repeat center center fixed;
+  @include backgroundImage;
+}
+.div_header_vientiane {
+  clear: both;
+  height: 300px;
+  background: image-url('vientiane.jpg') no-repeat center center fixed;
+  @include backgroundImage;
+}
+.div_header_vangvieng {
+  clear: both;
+  height: 300px;
+  background: image-url('vangvieng.jpg') no-repeat center center fixed;
+  @include backgroundImage;
+}
+.div_header_hoian {
+  clear: both;
+  height: 300px;
+  background: image-url('hoi_an.jpg') no-repeat center center fixed;
+  @include backgroundImage;
+}
+.div_header_hochiminh {
+  clear: both;
+  height: 300px;
+  background: image-url('hochiminh.jpg') no-repeat center center fixed;
+  @include backgroundImage;
+}
+.div_header_halongbay {
+  clear: both;
+  height: 400px;
+  background: image-url('halongbay.jpg') no-repeat center center fixed;
+  @include backgroundImage;
 }
 @media screen and (min-width: 480px) {
+  .style_image, .image_city_specific {
+    height: 350px;
+    width: 450px;
+  }
 
 }
 @media screen and (min-width: 850px) {
+  .style_image, .image_city_specific {
+    height: 250px;
+    width: 350px;
+  }
   .image_city_specific {
     height: 300px;
     width: 50%;
