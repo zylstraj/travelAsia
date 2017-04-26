@@ -55,10 +55,10 @@ color: blue;
 
 /* Header : Right under Nav :  -- Basically the same: But each one has a slightly different background */
 .h1_city_toDo {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Nixie One', cursive;
   color: white;
-  font-size: 4em;
-  padding-top: 1em;
+  font-size: 1em;
+  padding-top: .5em;
   padding-left: .5em;
   clear: both;
   text-align: left;
@@ -71,49 +71,49 @@ color: blue;
 }
 .div_header_Bangkok {
   clear: both;
-  height: 300px;
+  height: 500px;
   background: image-url('bangkok.jpg') no-repeat center center fixed;
   @include backgroundImage;
 }
 .div_header_kohsamui {
   clear: both;
-  height: 300px;
+  height: 500px;
   background: image-url('kohsamui.jpg') no-repeat center center fixed;
   @include backgroundImage;
 }
 .div_header_chiangmai {
   clear: both;
-  height: 300px;
+  height: 500px;
   background: image-url('chiangmai.jpg') no-repeat center center fixed;
   @include backgroundImage;
 }
 .div_header_vientiane {
   clear: both;
-  height: 300px;
+  height: 500px;
   background: image-url('vientiane.jpg') no-repeat center center fixed;
   @include backgroundImage;
 }
 .div_header_vangvieng {
   clear: both;
-  height: 300px;
+  height: 500px;
   background: image-url('vangvieng.jpg') no-repeat center center fixed;
   @include backgroundImage;
 }
 .div_header_hoian {
   clear: both;
-  height: 300px;
+  height: 500px;
   background: image-url('hoi_an.jpg') no-repeat center center fixed;
   @include backgroundImage;
 }
 .div_header_hochiminh {
   clear: both;
-  height: 300px;
+  height: 500px;
   background: image-url('hochiminh.jpg') no-repeat center center fixed;
   @include backgroundImage;
 }
 .div_header_halongbay {
   clear: both;
-  height: 400px;
+  height: 500px;
   background: image-url('halongbay.jpg') no-repeat center center fixed;
   @include backgroundImage;
 }
@@ -125,6 +125,9 @@ color: blue;
 
 }
 @media screen and (min-width: 850px) {
+  .div_header_kohsamui, .div_header_Bangkok, .div_header_chiangmai, .div_header_vientiane, .div_header_vangvieng, .div_header_halongbay, .div_header_hoian, .div_header_hochiminh {
+    height: 300px;
+  }
   .style_image, .image_city_specific {
     height: 250px;
     width: 350px;
