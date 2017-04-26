@@ -51,7 +51,7 @@
 }
 @media screen and (min-width: 850px) {
   .nav_home_page {
-    background: image-url('hoian_beach.jpg') no-repeat center center;
+    background: image-url('hoian_beach.jpg') no-repeat center center fixed;
     @include backgroundImage;
     height: 600px;
   }
