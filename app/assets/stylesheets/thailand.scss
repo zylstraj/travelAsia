@@ -72,49 +72,49 @@ color: blue;
 .div_header_Bangkok {
   clear: both;
   height: 500px;
-  background: image-url('bangkok.jpg') no-repeat center center fixed;
+  background: image-url('bangkok.jpg') no-repeat center center;
   @include backgroundImage;
 }
 .div_header_kohsamui {
   clear: both;
   height: 500px;
-  background: image-url('kohsamui.jpg') no-repeat center center fixed;
+  background: image-url('kohsamui.jpg') no-repeat center center;
   @include backgroundImage;
 }
 .div_header_chiangmai {
   clear: both;
   height: 500px;
-  background: image-url('chiangmai.jpg') no-repeat center center fixed;
+  background: image-url('chiangmai.jpg') no-repeat center center;
   @include backgroundImage;
 }
 .div_header_vientiane {
   clear: both;
   height: 500px;
-  background: image-url('vientiane.jpg') no-repeat center center fixed;
+  background: image-url('vientiane.jpg') no-repeat center center;
   @include backgroundImage;
 }
 .div_header_vangvieng {
   clear: both;
   height: 500px;
-  background: image-url('vangvieng.jpg') no-repeat center center fixed;
+  background: image-url('vangvieng.jpg') no-repeat center center;
   @include backgroundImage;
 }
 .div_header_hoian {
   clear: both;
   height: 500px;
-  background: image-url('hoi_an.jpg') no-repeat center center fixed;
+  background: image-url('hoi_an.jpg') no-repeat center center;
   @include backgroundImage;
 }
 .div_header_hochiminh {
   clear: both;
   height: 500px;
-  background: image-url('hochiminh.jpg') no-repeat center center fixed;
+  background: image-url('hochiminh.jpg') no-repeat center center;
   @include backgroundImage;
 }
 .div_header_halongbay {
   clear: both;
   height: 500px;
-  background: image-url('halongbay.jpg') no-repeat center center fixed;
+  background: image-url('halongbay.jpg') no-repeat center center;
   @include backgroundImage;
 }
 @media screen and (min-width: 480px) {
