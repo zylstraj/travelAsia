@@ -1,0 +1,33 @@
+.nav_specificCity {
+  clear: both;
+}
+.div_bottomNav_city {
+  height: 250px;
+  width: 95%;
+  margin-left: 2.5%;
+}
+.div_bottomNav_city:hover {
+  opacity: .5;
+}
+.h1_bottomNav_home {
+padding-top: 25px;
+font-size: 3em;
+color: black;
+font-weight: 100;
+text-align: center;
+clear:both;
+}
+.h1_bottomNav_home:hover {
+  color: blue;
+}
+
+@media screen and (min-width: 850px) {
+  .div_bottomNav_city {
+    height: 250px;
+    float: left;
+    width: 47%;
+    margin-top: 50px;
+    margin-left: 2.5%;
+  }
+
+}
