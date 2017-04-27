@@ -1,34 +1,65 @@
 /* Specific To Do Items Within div_maincity_todos */
-.style_image, .image_city_specific {
+
+ // Everything is Nested.
+
+.div_mainCity_specificTodo {
+    h1, h2, p {
+  font-weight: 100;
+  }
+    p {
+  font-size: 2em;
+  }
+    .style_image {
   height: 250px;
   width: 100%;
-}
-.h1_city_specific, .h2_city_specific {
-  font-weight: 100;
-}
-.p_city_specific {
-  font-weight: 100;
-  font-size: 2em;
-}
-
-@media screen and (min-width: 480px) {
-  .style_image, .image_city_specific {
-    height: 300px;
-    width: 425px;
   }
 
+  @media screen and (min-width: 480px) {
+    .style_image {
+      height: 300px;
+      width: 425px;
+    }
+  }
+  @media screen and (min-width: 850px) {
+    .style_image, .image_city_specific {
+        height: 250px;
+        width: 350px;
+      }
+    .image_city_specific {
+        height: 300px;
+        width: 50%;
+        float: left;
+      }
+    }
+
 }
-@media screen and (min-width: 850px) {
-  .div_header_kohsamui, .div_header_Bangkok, .div_header_chiangmai, .div_header_vientiane, .div_header_vangvieng, .div_header_halongbay, .div_header_hoian, .div_header_hochiminh {
-    height: 400px;
-  }
-  .style_image, .image_city_specific {
-    height: 250px;
-    width: 350px;
-  }
-  .image_city_specific {
-    height: 300px;
-    width: 50%;
-    float: left;
-  }
-}
+// .style_image, .image_city_specific {
+//   height: 250px;
+//   width: 100%;
+// }
+// .h1_city_specific, .h2_city_specific {
+//   font-weight: 100;
+// }
+// .p_city_specific {
+//   font-weight: 100;
+//   font-size: 2em;
+// }
+//
+// @media screen and (min-width: 480px) {
+//   .style_image, .image_city_specific {
+//     height: 300px;
+//     width: 425px;
+//   }
+//
+// }
+// @media screen and (min-width: 850px) {
+//   .style_image, .image_city_specific {
+//     height: 250px;
+//     width: 350px;
+//   }
+//   .image_city_specific {
+//     height: 300px;
+//     width: 50%;
+//     float: left;
+//   }
+// }
