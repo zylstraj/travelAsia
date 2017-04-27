@@ -6,12 +6,6 @@
 /* Setting Background Images For Vietnam/Thailand/Laos */
 /* Created Mixin to make this more efficient */
 
-@mixin backgroundImage {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 .div_city_hoian {
   background: image-url('hoi_an.jpg') no-repeat center;
   @include backgroundImage;

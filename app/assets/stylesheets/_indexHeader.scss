@@ -1,0 +1,32 @@
+/* Header : Main H! : Home page : Nav Bar */
+.h1_main_home {
+  font-size: 3em;
+  color: black;
+  font-weight: 300;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: .15em;
+  padding-top: 4em;
+  padding-left: .5em;
+}
+/*.nav_home_page {
+  height: 600px;
+}*/
+
+@media screen and (min-width: 850px) {
+/* Header : Main H! : Home page : Nav Bar */
+.nav_home_page {
+  height: 650px;
+}
+.h1_main_home {
+  font-size: 6em;
+  margin-right: .5em;
+  color: black;
+  font-weight: 100;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: .15em;
+  padding-top: 1.75em;
+  padding-left: .5em;
+}
+}
