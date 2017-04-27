@@ -1,0 +1,56 @@
+/* Vietnam : Div's for Vietnam : Links to places: */
+.div_vietnam_cities {
+  height: 2775px;
+  background-color: white;
+  border-radius: 2px;
+}
+.div_city {
+  height: 250px;
+  width: 95%;
+  margin-left: 2.5%;
+}
+.div_city:hover {
+  opacity: .5;
+}
+.div_laos_cities {
+  clear: both;
+  height: 1000px;
+  background-color: white;
+  border-radius: 2px;
+}
+.h1_header_vietnam, .h1_header_laos {
+  padding-top: 25px;
+  font-size: 4em;
+  color: black;
+  font-weight: 100;
+  text-align: center;
+  clear:both;
+}
+.h1_header_laos {
+  clear: both;
+}
+@media screen and (min-width: 850px) {
+
+/* Vietnam : Div's for Vietnam : Links to places:
+Changes for a more responsive approach: Focusing on
+*/
+.div_vietnam_cities {
+  height: 1450px;
+}
+.div_city {
+  height: 250px;
+  float: left;
+  width: 30%;
+  margin-top: 50px;
+  margin-left: 2.5%;
+}
+.div_city_vangvieng, .div_city_vientiane {
+  width: 47%;
+}
+.h1_header_vietnam {
+  font-size: 4em;
+  color: black;
+  font-weight: 100;
+  text-align: center;
+}
+}
