@@ -1,0 +1,79 @@
+.h1_nav_mainCity, .h1_mainCity_home {
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+.h1_mainCity_home {
+  float: right;
+  font-size: 1.5em;
+  width: 30%;
+}
+.h1_mainCity_home:hover {
+color: blue;
+}
+.h1_nav_mainCity {
+  font-size: 2em;
+  float: left;
+  width: 60%;
+}
+
+/* Header : Right under Nav :  -- Basically the same: But each one has a slightly different background */
+.h1_city_toDo {
+  font-family: 'Nixie One', cursive;
+  color: white;
+  font-size: 1em;
+  padding-top: .5em;
+  padding-left: .5em;
+  clear: both;
+  text-align: left;
+}
+
+.simpleHeader {
+  clear: both;
+  height: 500px;
+}
+.div_header_Bangkok {
+  @extend .simpleHeader;
+  background: image-url('bangkok.jpg') no-repeat center center;
+  @include backgroundImage;
+}
+.div_header_kohsamui {
+  @extend .simpleHeader;
+  background: image-url('kohsamui.jpg') no-repeat center center;
+  @include backgroundImage;
+}
+.div_header_chiangmai {
+  @extend .simpleHeader;
+  background: image-url('chiangmai.jpg') no-repeat center center;
+  @include backgroundImage;
+}
+.div_header_vientiane {
+  @extend .simpleHeader;
+  background: image-url('vientiane.jpg') no-repeat center center;
+  @include backgroundImage;
+}
+.div_header_vangvieng {
+  @extend .simpleHeader;
+  background: image-url('vangvieng.jpg') no-repeat center center;
+  @include backgroundImage;
+}
+.div_header_hoian {
+  @extend .simpleHeader;
+  background: image-url('hoi_an.jpg') no-repeat center center;
+  @include backgroundImage;
+}
+.div_header_hochiminh {
+  @extend .simpleHeader;
+  background: image-url('hochiminh_roof.jpg') no-repeat center center;
+  @include backgroundImage;
+}
+.div_header_halongbay {
+  @extend .simpleHeader;
+  background: image-url('halong_bay.jpg') no-repeat center center;
+  @include backgroundImage;
+}
+@media screen and (min-width: 850px) {
+  .div_header_kohsamui, .div_header_Bangkok, .div_header_chiangmai, .div_header_vientiane, .div_header_vangvieng, .div_header_halongbay, .div_header_hoian, .div_header_hochiminh {
+    height: 400px;
+  }
+}

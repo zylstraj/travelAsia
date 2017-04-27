@@ -1,0 +1,28 @@
+/* Organization // Styling of Structure: */
+.div_mainCity_specific {
+  clear: both;
+}
+.div_mainCity_toDos {
+  background-color: 'white';
+}
+.div_mainCity_specificTodo {
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (min-width: 850px) {
+.div_mainCity_specificTodo {
+  width: 30%;
+  float: left;
+}
+.div_mainCity_specificTodo:nth-child(2) {
+  margin-left: 3%;
+}
+.div_mainCity_specificTodo:nth-child(3) {
+  margin-left: 3%;
+}
+.div_mainCity_toDos {
+  background-color: 'white';
+  height: 400px;
+}
+}
